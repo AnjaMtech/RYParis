@@ -5,6 +5,21 @@ html, body{
 
 header{
   text-align: center;
-  background-color: #cc2;
+  background-color: #ea2;
   color: #333;
+}
+section{
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+section div{
+  /* display: inline; */
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+.flexbox div{
+  margin: 20px;
 }
