@@ -41,7 +41,16 @@ a{
   color: inherit;
 }
 section{
-  border: 2px dotted red;
+  padding: 20px 70px;
+}
+section:nth-child(even){
+}
+.img-flex{
+  display: flex;
+  justify-content: space-between;
+}
+#most-popular img{
+  height: 50%;
 }
 
 
