@@ -1,0 +1,157 @@
+$padding-x: 90px;
+$padding-y: 20px;
+$main-orange: #ea2;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: $main-orange;
+}
+header{
+  text-align: center;
+}
+.header-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #2e2c2a;
+  background-color: $main-orange;
+}
+nav{
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  a{
+    text-decoration: none;
+    padding: 10px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+header img{
+  padding: 0 90px;
+}
+.header-bottom{
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/hero-image.jpg);
+  background-size: cover;
+}
+.header-bottom h2{
+  margin-top: 350px;
+  margin-bottom: 100px;
+  padding: 5px;
+  background-color: #fff;
+}
+a{
+  color: inherit;
+}
+section{
+  padding: 20px $padding-x;
+  &:nth-child(even){
+    background-color: #ccc;
+  }
+  &:nth-child(odd){
+    background-color: #fff;
+  }
+}
+.img-flex{
+  display: flex;
+  justify-content: space-around;
+}
+h3{
+  padding: 20px 0;
+}
+section p{
+  padding: 20px 0;
+}
+#most-popular img{
+  height: 222px;
+  width: 370px;
+}
+#where-to-eat{
+  border: 2px dotted green;
+}
+#section2{
+  .img-box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    img{
+      object-fit: cover;
+      overflow: hidden;
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+.img-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  // width: 200px;
+  // height: 200px;
+  background-color: #fff;
+  img{
+    object-fit: cover;
+    // overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.img-div{
+  /* flex: 8; */
+  background-position: center;
+  height: 200px;
+  background-color: darkblue;
+  border: 1px solid blue;
+  background-size: cover;
+}
+.img-area-3{
+  img{
+    width: 320px;
+    height: 225px;
+    object-fit: cover;
+  }
+  .grey-box{
+    background-color: #ccc;
+    padding: 10px;
+  }
+}
+.img-caption{
+  /* flex: 2; */
+  padding: 7px;
+}
+#fajita{
+  background-image: url(../images/fajita-peppers.jpeg);
+}
+#muffin{
+  background-image: url(../images/muffins.jpeg);
+}
+#eggplant{
+  background-image: url(../images/eggplant-parmesan.jpg);
+  background-color: #f60;
+}
+#teriyaki{
+  background-image: url(../images/teriyaki-chicken.jpeg);
+}
+
+#section3{
+  background-color: blue;
+  border: 3px solid lightblue;
+  img{
+    height: 300px;
+  }
+}
+
+
+footer{
+  background-color: $main-orange;
+  padding: $padding-y $padding-x;
+  color: #fff;
+}
