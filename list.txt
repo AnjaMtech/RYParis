@@ -1,15 +1,15 @@
--HTML(5) Code is clearly organized and easy to read.
   -Every page contains DOCTYPE, <html>, <head>, <title> and <body> elements.
--Folder and file structure - all stylesheets, media assets placed in the proper folders
+  -Folder and file structure - all stylesheets, media assets placed in the proper folders
   -Proper use of classes and divs
   -Landing page is named index.htmls
   -Menu Navigation
--Headers, paragraphs, and lists are used to organize content.
--Checked for bugs or errors using a website validator
--Forms: contains name input, email input, checkbox, multi-line and text input (does not need to have the back-end with data stored in a database)
--All style rules are in external stylesheets with descriptive names with proper styles.
--Git/Git Hub Commits. Have at least 5+ commits.
--Overall look, feel and flow of the website
   -Use your own customized template. No bootstrap or other pre-coded templates.
   -Use of Flexbox
+  -Headers, paragraphs, and lists are used to organize content.
+  -Git/Git Hub Commits. Have at least 5+ commits.
+  -All style rules are in external stylesheets with descriptive names with proper styles.
 -Video embedded
+-Forms: contains name input, email input, checkbox, multi-line and text input (does not need to have the back-end with data stored in a database)
+-Overall look, feel and flow of the website
+-HTML(5) Code is clearly organized and easy to read.
+-Checked for bugs or errors using a website validator

@@ -78,13 +78,9 @@ section p {
   padding: 20px 0;
 }
 
-#most-popular img {
+#section1 img {
   height: 222px;
   width: 370px;
-}
-
-#where-to-eat {
-  border: 2px dotted green;
 }
 
 #section2 .img-box {
@@ -152,10 +148,6 @@ section p {
   background-image: url(../images/teriyaki-chicken.jpeg);
 }
 
-#section3 {
-  background-color: blue;
-  border: 3px solid lightblue;
-}
 #section3 img {
   height: 300px;
 }
